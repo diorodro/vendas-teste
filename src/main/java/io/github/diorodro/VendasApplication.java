@@ -15,7 +15,6 @@ public class VendasApplication {
 	@Autowired
 	@Qualifier("applicationName")
 	private String applicationName;
-//	modificando para mudar no github
 	
 	@Value("${application.name}")
 	private String appName;
